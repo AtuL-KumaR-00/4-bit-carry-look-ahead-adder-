@@ -3,6 +3,7 @@ Motivation behind Carry Look-Ahead Adder :
 In ripple carry adders, for each adder block, the two bits that are to be added are available instantly. However, each adder block waits for the carry to arrive from its previous block. So, it is not possible to generate the sum and carry of any block until the input carry is known. The i^{th}  block waits for the i-1^{th}  block to produce its carry. So there will be a considerable time delay which is carry propagation delay. 
 
 A carry look-ahead adder reduces the propagation delay by introducing more complex hardware. In this design, the ripple carry design is suitably transformed such that the carry logic over fixed groups of bits of the adder is reduced to two-level logic. Let us discuss the design in detail. 
+
 ![image](https://user-images.githubusercontent.com/64649440/172459674-3363c479-6d8a-4496-ae4b-a40633eb99b7.png)
 
 
