@@ -52,3 +52,8 @@ Now, for the generation of the n^{th}  carry bit, we need to perform a AND betwe
 
 * The Carry Look-ahead adder circuit gets complicated as the number of variables increase.
 * The circuit is costlier as it involves more number of hardware.
+
+## References:
+* https://www.geeksforgeeks.org/carry-look-ahead-adder/
+* https://www.youtube.com/watch?v=tBE7VTOzI_Y&list=PL1iLu2CSC9EWAo0ysorNI_nebwF6Rwkr0&index=18
+
